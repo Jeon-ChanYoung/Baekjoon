@@ -1,7 +1,10 @@
 #include <iostream>
+#include <vector>
 
 using namespace std;
 
 int main() {
-    cout << 3 << endl;
+    string x[3] ={"xxx.....", "3r2w", "342"};
+    cout << x[2].at(1) << endl;
+
 }
