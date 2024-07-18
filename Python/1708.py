@@ -34,13 +34,8 @@ for i in range (N):
     points.append((x, y))
 points = sorted(points, key=lambda point: (point[0], point[1]))
 
-def cross(o, a, b): # 외적
+def cross(o, a, b):
     return (a[0] - o[0])*(b[1] - o[1]) - (a[1] - o[1])*(b[0] - o[0])
-    '''
-    외적값의 의미
-    양수 : oa 벡터에 대해 점 b 가 반시계 방향에 있음
-    음수 : oa 벡터에 대해 점 b 가 시계 방향에 있음
-    '''
 
 lower = []
 for p in points:
