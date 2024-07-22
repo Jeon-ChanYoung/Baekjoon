@@ -17,6 +17,8 @@ public class J9527 {
 
         long result = solve(B) - solve(A - 1);
         System.out.println(result);
+
+        sc.close();
     }
 
     static long solve(long x) {

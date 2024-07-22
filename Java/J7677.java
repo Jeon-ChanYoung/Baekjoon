@@ -40,5 +40,6 @@ public class J7677 {
             long[][] result = pow(A, n); 
             System.out.println(result[0][1]);
         }
+        sc.close();
     }
 }

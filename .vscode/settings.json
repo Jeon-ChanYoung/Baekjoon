@@ -7,5 +7,8 @@
         "vector": "cpp",
         "ostream": "cpp",
         "algorithm": "cpp"
-    }
+    },
+    "cSpell.words": [
+        "CCCW"
+    ]
 }

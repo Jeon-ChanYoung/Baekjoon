@@ -16,6 +16,8 @@ public class J16134 {
 
         long result = fN * power(fNR * fR % P, P - 2) % P;
         System.out.println(result);
+
+        sc.close();
     }
 
     static long factorial(int n) {
